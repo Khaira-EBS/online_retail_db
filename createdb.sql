@@ -1,1 +1,1 @@
-CREATE DATABASE IF NOT EXISTS retail_db;
+CREATE DATABASE retail_db;
