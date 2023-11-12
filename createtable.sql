@@ -23,13 +23,14 @@ CREATE TABLE category (
     PRIMARY KEY (id_category)
 );
 
-CREATE TABLE order (
+CREATE TABLE order_product (
     id_order INT NOT NULL AUTO_INCREMENT,
     customer_id INT NOT NULL,
     product_id INT NOT NULL,
     quantity_order INT NOT NULL,
     price_order INT NOT NULL,
     status_order VARCHAR(255) NOT NULL,
+    date_order DATE NOT NULL,
     PRIMARY KEY (id_order),
     FOREIGN KEY (customer_id) REFERENCES customer (id_customer),
     FOREIGN KEY (product_id) REFERENCES product (id_product)

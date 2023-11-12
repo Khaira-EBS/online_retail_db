@@ -1,1 +1,1 @@
-CREATE DATABASE retail_db;
+CREATE DATABASE online_retail;

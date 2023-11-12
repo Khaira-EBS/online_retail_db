@@ -34,7 +34,7 @@ VALUES (1, 'Bakpia Kukus', 45000, 50),
 (4, 'Seblak Instan', 45000, 50),
 (9, 'Bolu Susu Bandung', 45000, 50);
 
-INSERT INTO order (customer_id, product_id, quantity_order, price_order, status_order)
+INSERT INTO order_product (customer_id, product_id, quantity_order, price_order, status_order)
 VALUES (1, 1, 2, 100000,'Done'),
 (2, 4, 2, 100000, 'Done'),
 (3, 3, 2, 100000, 'Done'),
